@@ -15,9 +15,17 @@
 
 <!--    <name>drop</name>-->
     <description>Demo project for Spring Boot</description>
+
     <properties>
         <java.version>11</java.version>
+        <sonar.host.url>http://52.20.108.251:9000</sonar.host.url>
+        <sonar.projectKey>project</sonar.projectKey>
+        <sonar.projectName>drop</sonar.projectName>
+        <sonar.sourceEncoding>UTF-8</sonar.sourceEncoding>
+        <sonar.language>java</sonar.language>
+        <sonar.java.binaries>target/classes</sonar.java.binaries>
     </properties>
+
     <dependencies>
         
         <dependency>
@@ -156,15 +164,15 @@
                 </configuration>
             </plugin>
 
-                  <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.0</version>
-        <configuration>
-          <source>10</source>
-          <target>10</target>
-        </configuration>
-      </plugin>
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.0</version>
+             <configuration>
+              <source>11</source>
+              <target>11</target>
+             </configuration>
+           </plugin>
 
             <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
