@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto17
+  pre_build:
+    commands:
+      - echo Nothing to do in the pre_build phase...
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo construyendo
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Llamando a Jenkins
+      - aws lambda invoke --function-name callJenkins response.json
+      - ls .
