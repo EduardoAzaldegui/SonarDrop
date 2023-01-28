@@ -23,7 +23,7 @@
         <sonar.projectName>drop</sonar.projectName>
         <sonar.sourceEncoding>UTF-8</sonar.sourceEncoding>
         <sonar.language>java</sonar.language>
-        <sonar.java.binaries>target/classes</sonar.java.binaries>
+        <sonar.java.binaries>/target/classes</sonar.java.binaries>
         <sonar.tests>src/test/java</sonar.tests>
         <sonar.sources>src/main/java</sonar.sources>
     </properties>
