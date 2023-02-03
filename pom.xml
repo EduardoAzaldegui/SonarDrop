@@ -20,7 +20,7 @@
         <java.version>11</java.version>
         <sonar.host.url>http://52.20.108.251:9000</sonar.host.url>
         <sonar.projectKey>DropFirst</sonar.projectKey>
-        <sonar.projectName>drop</sonar.projectName>
+        <sonar.projectName>Drop-Dev</sonar.projectName>
         <sonar.sourceEncoding>UTF-8</sonar.sourceEncoding>
         <sonar.language>java</sonar.language>
         <sonar.java.binaries>/target/classes</sonar.java.binaries>
@@ -186,23 +186,4 @@
         <finalName>${project.name}</finalName>
     </build>
     
-    
-        <profiles>
-        <profile>
-            <id>sonar</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <properties>
-                <!-- Optional URL to server. Default value is http://localhost:9000 -->
-                <sonar.host.url>
-                  http://52.20.108.251:9000
-                </sonar.host.url>
-            </properties>
-        </profile>
-     </profiles>
-
-    
-    
-
 </project>
