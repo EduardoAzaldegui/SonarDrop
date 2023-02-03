@@ -19,7 +19,7 @@
     <properties>
         <java.version>11</java.version>
         <sonar.host.url>http://52.20.108.251:9000</sonar.host.url>
-        <sonar.projectKey>DropFirst</sonar.projectKey>
+        <sonar.projectKey>DropDev</sonar.projectKey>
         <sonar.projectName>Drop-Dev</sonar.projectName>
         <sonar.sourceEncoding>UTF-8</sonar.sourceEncoding>
         <sonar.language>java</sonar.language>
