@@ -26,7 +26,7 @@
         <sonar.java.binaries>/target/classes</sonar.java.binaries>
         <sonar.tests>src/test/java</sonar.tests>
         <sonar.sources>src/main/java</sonar.sources>
-        <sonar.exclusions>**/model/**/*.class</sonar.exclusions>
+        <sonar.exclusions>**/model/**,**/model/**/*.class</sonar.exclusions>
     </properties>
 
     <dependencies>
